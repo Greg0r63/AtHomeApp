@@ -1,0 +1,33 @@
+# Ignorer les fichiers générés par macOS
+.DS_Store
+
+# Ignorer les fichiers et dossiers pour un projet Xcode
+# Build et autres dossiers temporaires
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+
+# Fichiers d'index et de configuration utilisateur
+*.xcuserstate
+*.xcscmblueprint
+
+# Ignorer les fichiers de configuration spécifiques à l'utilisateur
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata
+*.xcodeproj/xcuserdata/
+
+# Ignorer les fichiers de signature et de profil (si non nécessaires)
+*.mobileprovision
+*.xcconfig
+
+# Ignorer les dossiers pour le projet Vapor
+# Cache des dépendances Swift Package Manager
+/.build/
+.swiftpm/xcode/
+Packages/
+Package.resolved
+
+# Fichiers de configuration de l'éditeur (si tu utilises Xcode pour Vapor)
+.vscode/

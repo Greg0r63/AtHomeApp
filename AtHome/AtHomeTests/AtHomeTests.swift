@@ -1,0 +1,17 @@
+//
+//  AtHomeTests.swift
+//  AtHomeTests
+//
+//  Created by Apprenant 176 on 11/10/2024.
+//
+
+import Testing
+@testable import AtHome
+
+struct AtHomeTests {
+
+    @Test func example() async throws {
+        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    }
+
+}
